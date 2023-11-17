@@ -46,5 +46,43 @@
 }
 
 .container {
-    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #d6d6d67a;
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px 0.5px rgba(0, 0, 0, 0.39);
+}
+
+.cor {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    background-color: white;
+    border-radius: 21px 21px 0px 0px;
+    font-size: 12px;
+}
+
+#btn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    width: 120px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 60px;
+    transition: background .2s;
+    background-color: rgb(198, 198, 207);
+    color: black;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.39);
+}
+
+#btn:hover {
+    background-color: #995353;  
+    color: white;
 }
